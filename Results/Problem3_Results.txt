@@ -1,0 +1,67 @@
+Adjacency List:
+centroid: [branch1_node1, branch2_node1, branch3_node1, branch4_node1, branch5_node1]
+branch1_node1: [centroid, branch1_node2]
+branch1_node2: [branch1_node1, branch1_node3]
+branch1_node3: [branch1_node2]
+branch2_node1: [centroid, branch2_node2]
+branch2_node2: [branch2_node1, branch2_node3]
+branch2_node3: [branch2_node2]
+branch3_node1: [centroid, branch3_node2]
+branch3_node2: [branch3_node1, branch3_node3]
+branch3_node3: [branch3_node2]
+branch4_node1: [centroid, branch4_node2]
+branch4_node2: [branch4_node1, branch4_node3]
+branch4_node3: [branch4_node2]
+branch5_node1: [centroid, branch5_node2]
+branch5_node2: [branch5_node1, branch5_node3]
+branch5_node3: [branch5_node2]
+
+Vertex Labels:
+centroid: 0
+branch1_node1: 1
+branch1_node2: 2
+branch1_node3: 3
+branch2_node1: 4
+branch2_node2: 5
+branch2_node3: 6
+branch3_node1: 7
+branch3_node2: 8
+branch3_node3: 9
+branch4_node1: 10
+branch4_node2: 11
+branch4_node3: 12
+branch5_node1: 13
+branch5_node2: 14
+branch5_node3: 15
+
+Edge Weights:
+('centroid', 'branch1_node1'): 1
+('branch1_node1', 'centroid'): 1
+('branch1_node1', 'branch1_node2'): 1
+('branch1_node2', 'branch1_node1'): 1
+('branch1_node2', 'branch1_node3'): 1
+('branch1_node3', 'branch1_node2'): 1
+('centroid', 'branch2_node1'): 1
+('branch2_node1', 'centroid'): 1
+('branch2_node1', 'branch2_node2'): 1
+('branch2_node2', 'branch2_node1'): 1
+('branch2_node2', 'branch2_node3'): 1
+('branch2_node3', 'branch2_node2'): 1
+('centroid', 'branch3_node1'): 1
+('branch3_node1', 'centroid'): 1
+('branch3_node1', 'branch3_node2'): 1
+('branch3_node2', 'branch3_node1'): 1
+('branch3_node2', 'branch3_node3'): 1
+('branch3_node3', 'branch3_node2'): 1
+('centroid', 'branch4_node1'): 1
+('branch4_node1', 'centroid'): 1
+('branch4_node1', 'branch4_node2'): 1
+('branch4_node2', 'branch4_node1'): 1
+('branch4_node2', 'branch4_node3'): 1
+('branch4_node3', 'branch4_node2'): 1
+('centroid', 'branch5_node1'): 1
+('branch5_node1', 'centroid'): 1
+('branch5_node1', 'branch5_node2'): 1
+('branch5_node2', 'branch5_node1'): 1
+('branch5_node2', 'branch5_node3'): 1
+('branch5_node3', 'branch5_node2'): 1
