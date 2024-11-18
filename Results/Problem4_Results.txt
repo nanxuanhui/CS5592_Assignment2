@@ -1,21 +1,45 @@
-Vertex 0: -> 1 (Weight 1) -> 6 (Weight 2) -> 11 (Weight 3) -> 16 (Weight 4)
-Vertex 1: -> 0 (Weight 1) -> 2 (Weight 1)
-Vertex 2: -> 1 (Weight 1) -> 3 (Weight 2)
-Vertex 3: -> 2 (Weight 2) -> 4 (Weight 3)
-Vertex 4: -> 3 (Weight 3) -> 5 (Weight 4)
-Vertex 5: -> 4 (Weight 4)
-Vertex 6: -> 0 (Weight 2) -> 7 (Weight 1)
-Vertex 7: -> 6 (Weight 1) -> 8 (Weight 2)
-Vertex 8: -> 7 (Weight 2) -> 9 (Weight 3)
-Vertex 9: -> 8 (Weight 3) -> 10 (Weight 4)
-Vertex 10: -> 9 (Weight 4)
-Vertex 11: -> 0 (Weight 3) -> 12 (Weight 1)
-Vertex 12: -> 11 (Weight 1) -> 13 (Weight 2)
-Vertex 13: -> 12 (Weight 2) -> 14 (Weight 3)
-Vertex 14: -> 13 (Weight 3) -> 15 (Weight 4)
-Vertex 15: -> 14 (Weight 4)
-Vertex 16: -> 0 (Weight 4) -> 17 (Weight 1)
-Vertex 17: -> 16 (Weight 1) -> 18 (Weight 2)
-Vertex 18: -> 17 (Weight 2) -> 19 (Weight 3)
-Vertex 19: -> 18 (Weight 3) -> 20 (Weight 4)
-Vertex 20: -> 19 (Weight 4)
+Vertex Labels:
+Vertex 0: Center
+Vertex 1: Branch-1-Root
+Vertex 2: Branch-1-Node-1
+Vertex 3: Branch-1-Node-2
+Vertex 4: Branch-1-Node-3
+Vertex 5: Branch-1-Node-4
+Vertex 6: Branch-2-Root
+Vertex 7: Branch-2-Node-1
+Vertex 8: Branch-2-Node-2
+Vertex 9: Branch-2-Node-3
+Vertex 10: Branch-2-Node-4
+Vertex 11: Branch-3-Root
+Vertex 12: Branch-3-Node-1
+Vertex 13: Branch-3-Node-2
+Vertex 14: Branch-3-Node-3
+Vertex 15: Branch-3-Node-4
+Vertex 16: Branch-4-Root
+Vertex 17: Branch-4-Node-1
+Vertex 18: Branch-4-Node-2
+Vertex 19: Branch-4-Node-3
+Vertex 20: Branch-4-Node-4
+
+Adjacency List:
+Vertex 0 (Center): -> 1 (Weight 1) -> 6 (Weight 2) -> 11 (Weight 3) -> 16 (Weight 4)
+Vertex 1 (Branch-1-Root): -> 0 (Weight 1) -> 2 (Weight 1)
+Vertex 2 (Branch-1-Node-1): -> 1 (Weight 1) -> 3 (Weight 2)
+Vertex 3 (Branch-1-Node-2): -> 2 (Weight 2) -> 4 (Weight 3)
+Vertex 4 (Branch-1-Node-3): -> 3 (Weight 3) -> 5 (Weight 4)
+Vertex 5 (Branch-1-Node-4): -> 4 (Weight 4)
+Vertex 6 (Branch-2-Root): -> 0 (Weight 2) -> 7 (Weight 1)
+Vertex 7 (Branch-2-Node-1): -> 6 (Weight 1) -> 8 (Weight 2)
+Vertex 8 (Branch-2-Node-2): -> 7 (Weight 2) -> 9 (Weight 3)
+Vertex 9 (Branch-2-Node-3): -> 8 (Weight 3) -> 10 (Weight 4)
+Vertex 10 (Branch-2-Node-4): -> 9 (Weight 4)
+Vertex 11 (Branch-3-Root): -> 0 (Weight 3) -> 12 (Weight 1)
+Vertex 12 (Branch-3-Node-1): -> 11 (Weight 1) -> 13 (Weight 2)
+Vertex 13 (Branch-3-Node-2): -> 12 (Weight 2) -> 14 (Weight 3)
+Vertex 14 (Branch-3-Node-3): -> 13 (Weight 3) -> 15 (Weight 4)
+Vertex 15 (Branch-3-Node-4): -> 14 (Weight 4)
+Vertex 16 (Branch-4-Root): -> 0 (Weight 4) -> 17 (Weight 1)
+Vertex 17 (Branch-4-Node-1): -> 16 (Weight 1) -> 18 (Weight 2)
+Vertex 18 (Branch-4-Node-2): -> 17 (Weight 2) -> 19 (Weight 3)
+Vertex 19 (Branch-4-Node-3): -> 18 (Weight 3) -> 20 (Weight 4)
+Vertex 20 (Branch-4-Node-4): -> 19 (Weight 4)

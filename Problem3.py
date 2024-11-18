@@ -43,7 +43,7 @@ def build_graph(n_branches, nodes_per_branch):
             graph_labels[node_name] = label_counter  # Assign label
             label_counter += 1
 
-            # Add edge and store the edge weight (assume weight is 1, can be changed as needed)
+            # Add edge and store the edge weight
             graph[previous_node].append(node_name)
             graph[node_name].append(previous_node)
             edge_weights[(previous_node, node_name)] = 1
