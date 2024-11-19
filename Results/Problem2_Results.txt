@@ -1,0 +1,123 @@
+Adjacency List:
+1: [2, 5, 8, 11]
+2: [1, 3]
+3: [2, 4]
+4: [3]
+5: [1, 6]
+6: [5, 7]
+7: [6]
+8: [1, 9]
+9: [8, 10]
+10: [9]
+11: [1, 12]
+12: [11, 13]
+13: [12]
+
+Edge Weights:
+Edge (1, 2) -> Weight: 1
+Edge (1, 5) -> Weight: 2
+Edge (1, 8) -> Weight: 3
+Edge (1, 11) -> Weight: 4
+Edge (2, 3) -> Weight: 5
+Edge (3, 4) -> Weight: 6
+Edge (5, 6) -> Weight: 7
+Edge (6, 7) -> Weight: 8
+Edge (8, 9) -> Weight: 9
+Edge (9, 10) -> Weight: 10
+Edge (11, 12) -> Weight: 11
+Edge (12, 13) -> Weight: 12
+Vertex Label Assignment:
+Vertex 1: Label 1
+Vertex 2: Label 2
+Vertex 3: Label 3
+Vertex 4: Label 4
+Vertex 5: Label 5
+Vertex 6: Label 6
+Vertex 7: Label 7
+Vertex 8: Label 8
+Vertex 9: Label 9
+Vertex 10: Label 10
+Vertex 11: Label 11
+Vertex 12: Label 12
+Vertex 13: Label 13
+
+BFS Traversal:
+Visited Node 1
+Visited Node 2
+Visited Node 5
+Visited Node 8
+Visited Node 11
+Visited Node 3
+Visited Node 6
+Visited Node 9
+Visited Node 12
+Visited Node 4
+Visited Node 7
+Visited Node 10
+Visited Node 13
+
+DFS Traversal:
+Visited Node 1
+Visited Node 11
+Visited Node 12
+Visited Node 13
+Visited Node 8
+Visited Node 9
+Visited Node 10
+Visited Node 5
+Visited Node 6
+Visited Node 7
+Visited Node 2
+Visited Node 3
+Visited Node 4
+Vertex Labels:
+Vertex 1: Label 1
+Vertex 2: Label 2
+Vertex 3: Label 3
+Vertex 4: Label 4
+Vertex 5: Label 5
+Vertex 6: Label 6
+Vertex 7: Label 7
+Vertex 8: Label 8
+Vertex 9: Label 9
+Vertex 10: Label 10
+Vertex 11: Label 11
+Vertex 12: Label 12
+Vertex 13: Label 13
+
+Edge Weights:
+Edge (1, 2) -> Weight: 3
+Edge (1, 5) -> Weight: 6
+Edge (1, 8) -> Weight: 9
+Edge (1, 11) -> Weight: 12
+Edge (2, 3) -> Weight: 5
+Edge (3, 4) -> Weight: 7
+Edge (5, 6) -> Weight: 11
+Edge (6, 7) -> Weight: 13
+Edge (8, 9) -> Weight: 17
+Edge (9, 10) -> Weight: 19
+Edge (11, 12) -> Weight: 23
+Edge (12, 13) -> Weight: 25
+
+Table of Vertices and Edge Weights:
+| Vertex | Label | Neighbor | Neighbor's Label | Edge Weight (Sum) |
+|--------|-------|----------|------------------|--------------------|
+| 1 | 1 | 2 | 2 | 3 |
+| 1 | 1 | 5 | 5 | 6 |
+| 1 | 1 | 8 | 8 | 9 |
+| 1 | 1 | 11 | 11 | 12 |
+| 2 | 2 | 3 | 3 | 5 |
+| 3 | 3 | 4 | 4 | 7 |
+| 5 | 5 | 6 | 6 | 11 |
+| 6 | 6 | 7 | 7 | 13 |
+| 8 | 8 | 9 | 9 | 17 |
+| 9 | 9 | 10 | 10 | 19 |
+| 11 | 11 | 12 | 12 | 23 |
+| 12 | 12 | 13 | 13 | 25 |
+
+Estimated Time Complexity:
+Total Vertices V = 13
+Total Edges E = 12
+Theoretical Total Complexity T(V, E) ≈ O(V + E) = O(13 + 12) = O(25)
+Max Vertices V = 13,087,590
+Max Edges E = 13,087,591
